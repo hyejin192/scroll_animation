@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.text {
+    position: fixed;
+    left: 30px;
+    top: 10px;
+    z-index: 100;
+    font-size: 50px;
+}
+
+.fixbg {
+    position: fixed;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+}
+
+#tree {
+    position: fixed;
+    left: 50%; top: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 600px;
+    z-index: 50;
+}
+.fix {
+    position: fixed;
+    left: 50%; top: 50%;
+    transform: translate(-50%,-50%);
+    background: url(img/tree.png) no-repeat;
+    width: 500px;
+    height: 600px;
+}
+.slide {
+    position: fixed;
+    left: 0; top: 0;
+    width: 100%; 
+    height: 100%;
+}
+.slide-content .title {
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 10vw;
+    z-index: 100;
+    text-shadow: 5px 5px #818181cf;
+}
+.slide-content {
+    position: relative;
+    z-index: 100;
+}
+
+#spring_title {color: #FDCEDF;}
+#summer_title {color: #6ecb63;}
+#autumn_title {color: #7E1717;}
+#winter_title {color: #B0DAFF;}
+
+#winter_effect img {width: 100%;}
+
+
+
+
+
+
+
+#spring_item .bask {
+    position: absolute;
+    left: 25%; top: 584px;
+    width: 200px; height: 200px;
+}
+#spring_item .bask img {width: 100%;}
+
+#spring_item .cloud {
+    position: absolute;
+    right: 400px; top: 108px;
+    width: 10%; 
+}
+#spring_item .cloud img {width: 100%;}
+
+#summer_item .sun {
+    position: absolute;
+    left: 50px; top: 0;
+    width: 10%; 
+}
+#summer_item .sun img {width: 100%;}
+
+#summer_item .sum1 {
+    position: absolute;
+    right: 5%; top: 400px;
+    width: 20%; 
+}
+#summer_item .sum1 img {width: 100%;}
+
+#summer_item .sum2 {
+    position: absolute;
+    right: 10%; top: 600px;
+    width: 20%; 
+}
+#summer_item .sum2 img {width: 100%;}
+
+
+#autumn_item .chair {
+    position: absolute;
+    left: 5%; top: 350px;
+    width: 30%; 
+}
+#autumn_item .chair img {width: 100%;}
+
+#autumn_item .sol {
+    position: absolute;
+    right: 600px; top: 718px;
+    width: 100px; 
+}
+#autumn_item .sol img {
+    width: 100%;
+}
+#autumn_item .daram {
+    position: absolute;
+    right: 450px; top: 638px;
+    width: 260px; 
+}
+#autumn_item .daram img {
+    width: 100%;
+}
+
+#winter_item .snowman {
+    position: absolute;
+    right: 80px; top: 418px;
+}
+#winter_item .moja {
+    position: absolute;
+    right: 518px;
+    top: 433px;
+    width: 100px;
+    z-index: 30;
+}
+#winter_item .moja img {width: 100%;}
+.flower {
+    position: fixed;
+    z-index: 100;
+}
+.f1 {
+    left: 137px;
+    top: 8px;
+    width: 70px;
+}
+
+.f2 {
+    left: 70px;
+    top: 57px;
+    rotate: 288deg;
+    width: 70px;
+}
+
+.f3 {
+    left: 70px;
+    top: 118px;
+    width: 80px;
+}
+
+.f4 {
+    left: 239px;
+    top: -12px;
+    width: 80px;
+}
+
+.f5 {
+    left: 19px;
+    top: 190px;
+    width: 70px;
+}
+
+.f6 {
+    left: 152px;
+    top: 99px;
+    rotate: 283deg;
+    width: 70px;
+}
+
+.f7 {
+    right: 41px;
+    top: 131px;
+    width: 80px;
+}
+
+.f8 {
+    right: 99px;
+    top: 10px;
+    width: 80px;
+}
+
+.f9 {
+    right: 51px;
+    top: 132px;
+    width: 70px;
+}
+
+.f10 {
+    right: 35px;
+    top: 10px;
+    width: 70px;
+}
+
+.f11 {
+    right: -5px;
+    top: 170px;
+    width: 80px;
+}
+
+.f12 {
+    right: 124px;
+    top: 132px;
+    width: 80px;
+}
+
+.f13 {
+    right: 102px;
+    top: 212px;
+    width: 70px;
+}
+
+.f14 {
+    left: 116px;
+    top: 192px;
+    width: 80px;
+    rotate: 509deg;
+}
+
+.f15 {
+    right: 197px;
+    top: 93px;
+    width: 80px;
+}
+
+.f16 {
+    left: 82px;
+    top: 230px;
+    width: 70px;
+}
+.f17 {
+    left: 182px;
+    top: 210px;
+    rotate: 308deg;
+    width: 70px;
+}
+.f18 {
+    left: 162px;
+    top: 59px;
+    rotate: 375deg;
+    width: 70px;
+}
+.f19 {
+    left: 358px;
+    top: 54px;
+    rotate: 394deg;
+    width: 70px;
+}
+.f20 {
+    left: 183px;
+    top: 137px;
+    rotate: 281deg;
+    width: 70px;
+}
+.f21 {
+    left: 248px;
+    top: 177px;
+    rotate: 308deg;
+    width: 70px;
+}
+.f22 {
+    left: 302px;
+    top: 65px;
+    rotate: 329deg;
+    width: 70px;
+}
+.f23 {
+    left: 376px;
+    top: 215px;
+    rotate: 394deg;
+    width: 70px;
+}
+.f24 {
+    left: 214px;
+    top: 36px;
+    rotate: 313deg;
+    width: 70px;
+}
+
+
+.flower img {
+    width: 100%;
+}
